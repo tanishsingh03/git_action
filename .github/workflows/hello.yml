@@ -17,5 +17,6 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "2nd job created"
+        run: echo "Hello, Github Actions!"
+
         
