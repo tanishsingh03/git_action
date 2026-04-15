@@ -12,4 +12,10 @@ jobs:
 
       - name: Print message
         run: echo "Hello, sukrit Actions!"
+  say-bye:
+    run-on: ubuntu-latest      
+
+    steps:
+      - name: Print message
+        run: echo "2nd job created"
         
