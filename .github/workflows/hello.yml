@@ -12,11 +12,14 @@ jobs:
 
       - name: Print message
         run: echo "Hello, sukrit Actions!"
+
+
+jobs:        
   say-bye:
     run-on: ubuntu-latest      
 
     steps:
       - name: Print message
-        run: echo "Hello, Github Actions!"
+        run: echo "Goodbye from second job"
 
         
